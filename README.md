@@ -10,6 +10,7 @@ but should also work with
 
 # usage
 the widget uses a "generic item element" that is the common part of the name of expected elements
+
 | name                     | channel number#NAME   | example |
 |--------------------------|-----------------------|---------|
 | <generic>_TempSet        | 1#SET_POINT_MODE      | `Number ThermostatBad_TempSet` |
