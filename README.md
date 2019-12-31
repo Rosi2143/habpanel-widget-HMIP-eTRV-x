@@ -19,11 +19,11 @@ The common part of the name of expected items is defined in the config pannel an
 
 | name                     | channel number#NAME   | example                              |
 |--------------------------|-----------------------|--------------------------------------|
+| <generic>_BatteryStatus  | 0#LOW_BAT             | `Switch ThermostatBad_BatteryStatus` |
+| <generic>_UpdatePending  | 0#UPDATE_PENDING      | `Switch ThermostatBad_UpdatePending` |
 | <generic>_TempSet        | 1#SET_POINT_MODE      | `Number ThermostatBad_TempSet`       |
 | <generic>_TempAct        | 1#ACTUAL_TEMPERATURE  | `Number ThermostatBad_TempAct`       |
 | <generic>_WindowState    | 1#WINDOW_STATE        | `String ThermostatBad_WindowState`   |
-| <generic>_BatteryStatus  | 0#LOW_BAT             | `Switch ThermostatBad_BatteryStatus` |
-| <generic>_UpdatePending  | 0#UPDATE_PENDING      | `Switch ThermostatBad_UpdatePending` |
 | <generic>_PartyMode      | 1#PARTY_MODE          | `Switch ThermostatBad_PartyMode`     |
 | <generic>_BoostTime      | 1#BOOST_TIME          | `Number ThermostatBad_BoostTime`     |
 | <generic>_Profile        | 1#ACTIVE_PROFILE      | `Number ThermostatBad_Profile`       |
@@ -32,11 +32,11 @@ e.g.
 ```
 Switch  ThermostatBad_BatteryStatus       "Thermostat Bad Batterie [%s]"              {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:0#LOW_BAT" }
 Switch  ThermostatBad_UpdatePending       "Thermostat Bad Update [%s]"                {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:0#UPDATE_PENDING" }
-String  ThermostatBad_WindowState         "Thermostat Bad Window [%s]"                {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#WINDOW_STATE" }
 Number  ThermostatBad_TempSet             "Thermostat Bad Temperatur Set [%.1f]°C"    {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#SET_POINT_TEMPERATURE" }
 Number  ThermostatBad_TempAct             "Thermostat Bad Temperatur Act [%.1f]°C"    {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#ACTUAL_TEMPERATURE" }
-Number  ThermostatBad_BoostTime           "Thermostat Bad Remaining Boost time [%d]"  {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#BOOST_TIME" }
+String  ThermostatBad_WindowState         "Thermostat Bad Window [%s]"                {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#WINDOW_STATE" }
 Switch  ThermostatBad_PartyMode           "Thermostat Bad Party Active [%s]"          {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#PARTY_MODE" }
+Number  ThermostatBad_BoostTime           "Thermostat Bad Remaining Boost time [%d]"  {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#BOOST_TIME" }
 Number  ThermostatBad_Profile             "Thermostat Bad WeekProgramm [%s]"          {channel="homematic:HmIP-eTRV-2:3014F711A061A7D70992B1AC:000A1709A651A7:1#ACTIVE_PROFILE" }
 ```
 ## minimum and maximum temperature
@@ -56,7 +56,7 @@ you can choose 3 profiles (at least with the eTRV-2 and eTRV-C devices). If you 
 shows the miniumum version of the widget.
 
 ## normal
-![alt text](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_2.jpg "normal widget")
+![alt text](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_1.jpg "normal widget")
 
 ## setting temperature
 ![alt text](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_3.jpg "set temperature")
