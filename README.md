@@ -9,6 +9,8 @@ but should also work with
 * HmIP-eTRV-B
 
 # usage
+## install
+* install the 
 the widget uses a 
 ## "generic item element"
 
@@ -53,11 +55,23 @@ you can choose 3 profiles (at least with the eTRV-2 and eTRV-C devices). If you 
 # examples and usage
 ## small
 ![small widget](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_2.jpg "small widget")
+
 shows the miniumum version of the widget.
 
 ## normal
 ![normal widget](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_1.JPG "normal widget")
 
+shows the warnings that pop up on these occasions
+
+* battery is low
+* new firmware is available
+* party mode is active
+* boost time > 0sec
+
 ## setting temperature
 ![setting temperature](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_3.jpg "set temperature")
+
 any press on the TempSet items opens a slider to set the temperature.
+
+## setting profile
+press on the lower left selection box.
