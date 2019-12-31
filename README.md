@@ -52,12 +52,12 @@ you can choose 3 profiles (at least with the eTRV-2 and eTRV-C devices). If you 
 
 # examples and usage
 ## small
-![alt text](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_2.jpg "small widget")
+![small widget](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_2.jpg "small widget")
 shows the miniumum version of the widget.
 
 ## normal
-![alt text](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_1.jpg "normal widget")
+![normal widget](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_1.JPG "normal widget")
 
 ## setting temperature
-![alt text](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_3.jpg "set temperature")
+![setting temperature](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/eTRV-2_3.jpg "set temperature")
 any press on the TempSet items opens a slider to set the temperature.
