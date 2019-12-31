@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 495 495" style="enable-background:new 0 0 495 495;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<path style="fill:#9BC9FF" d="M337.5,259.445V90c0-49.626-40.374-90-90-90v80h20v218.162c26.083,8.457,45,32.974,45,61.838   c0,35.841-29.159,65-65,65v70c74.439,0,135-60.561,135-135C382.5,321.195,366.221,285.084,337.5,259.445z" data-original="#9BC9FF" class=""/>
+	<path style="fill:#D1E7F8" d="M182.5,360c0-28.864,18.917-53.382,45-61.838V80h20V0c-49.626,0-90,40.374-90,90v169.445   c-28.721,25.639-45,61.75-45,100.555c0,74.439,60.561,135,135,135v-70C211.659,425,182.5,395.841,182.5,360z" data-original="#D1E7F8" class=""/>
+	<path style="fill:#FF6243" d="M227.5,298.162c-26.083,8.457-45,32.974-45,61.838c0,35.841,29.159,65,65,65V80h-20V298.162z" data-original="#FF6243" class="" data-old_color="#F84726"/>
+	<path style="fill:#FF3501" d="M312.5,360c0-28.864-18.917-53.382-45-61.838V80h-20v345C283.341,425,312.5,395.841,312.5,360z" data-original="#FF3501" class="active-path"/>
+</g></g> </svg>
