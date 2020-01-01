@@ -10,8 +10,10 @@ but should also work with
 
 # usage
 ## install
-* install the widget
+* install the widget from https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x
+  * or use the [json file](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/HmiP-eTRV-2.widget.json) directly.
 * copy the [icons](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/tree/master/hmip-etrv) for the temperature to $OPENHAB_CONF/icons/classic e.g. for Linux to ```/etc/openhab2/icons/classic/hmip-etrv```
+
 
 ## configure the "generic item element"
 
