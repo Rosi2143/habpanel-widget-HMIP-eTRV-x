@@ -10,9 +10,10 @@ but should also work with
 
 # usage
 ## install
-* install the 
-the widget uses a 
-## "generic item element"
+* install the widget
+* copy the [icons](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/tree/master/hmip-etrv) for the temperature to $OPENHAB_CONF/icons/classic e.g. for Linux to ```/etc/openhab2/icons/classic/hmip-etrv```
+
+## configure the "generic item element"
 
 This config parameter is used to access further items with a defined naming pattern.
 This should make it easier to set up a whole bunch of widgets
