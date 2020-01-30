@@ -88,4 +88,5 @@ press on the lower left selection box.
 ## optional extention
 if you have a thermostat with humidity sensor (e.g. [HmIP-WTH-2](https://www.homematic-ip.com/produkte/detail/homematic-ip-wandthermostat-mit-luftfeuchtigkeitssensor.html) or [HmIP-STHD](https://www.homematic-ip.com/produkte/detail/homematic-ip-temperatur-und-luftfeuchtigkeitssensor-mit-display-innen.html) )
 you can add one more item <generic element>_Humidity. If this is done - mysteriously - another element appears.
+
 ![with humidity](https://github.com/Rosi2143/habpanel-widget-HMIP-eTRV-x/blob/master/WTH-2_1.jpg "with humidity")
